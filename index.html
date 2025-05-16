@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyler P. Morris - Portfolio</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts (Optional but stylish) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header section with your name and navigation -->
+    <header>
+      <h1>Tyler Morris</h1>
+      <nav>
+        <!-- Navigation links to different sections on the page -->
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#skills">Skills</a>
+        <a href="#awards">Achievements and Awards</a>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Tyler Morris, a newly emerging biomedical engineer who is
+        passonate about using cutting edge technology to solve healthcare
+        issues. My work primarily involves using AI tools to assist medical
+        professionals in their everyday jobs. I'm currently seeking
+        opportunities in professorships in research.
+      </p>
+      <ul>
+        <li data-aos="fade-left"><strong>Education:</strong></li>
+        <ul>
+          <li data-aos="fade-left" data-aos-delay="100">
+            B.S. in Biomedical Engineering, University of Tennessee, Knoxville
+            (2022)
+          </li>
+          <li data-aos="fade-left" data-aos-delay="200">
+            M.S. in Biomedical Engineering, University of Tennessee, Knoxville
+            (2024)
+          </li>
+          <li data-aos="fade-left" data-aos-delay="300">
+            Ph.D. in Biomedical Engineering, University of Tennessee, Knoxville
+            (Expected Spring 2026)
+          </li>
+        </ul>
+        <li data-aos="fade-left" data-aos-delay="400">
+          <strong>Interests:</strong> Human-AI interaction, Healthcare, and
+          AI/Healthcare systems for low income communities
+        </li>
+      </ul>
+
+      <!-- CV Download Button -->
+      <a class="cv-button" href="CV_TM.pdf" download> 📄 Download My CV </a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <!-- Technical Skills -->
+      <div class="skill-category technical">
+        <h3>Technical Skills</h3>
+
+        <div class="skill">
+          <span>Python</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="95%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="70%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>HTML & CSS</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="75%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>MATLAB</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="90%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>Machine Learning</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="95%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Research Skills -->
+      <div class="skill-category research">
+        <h3>Research Skills</h3>
+
+        <div class="skill">
+          <span>Research Design</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="90%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>Data Analysis</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="95%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>Scientific Writing</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="90%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>Literature Review</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="85%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <span>Human-Subject Studies</span>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="80%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <!-- Example project -->
+      <div class="project" data-aos="fade-up">
+        <h3>RISE</h3>
+        <p>
+          RISE is a system that seeks to assit in the training of informal
+          dementia caregivers. The system uses either a website or social robot
+          as a host platform to foster engagement. It then uses a retrieval
+          augmented generative AI (RAG-AI) system to generate custom sessions.
+          Users can go over any issues they may be having in their caregiving
+          journey through a 3-stage session: 1) Presentation Slides, 2) Q&A
+          Chat, and 3) Review Quiz. The user is then guided through a
+          stress-management activity to learn how to reduce their stress levels
+          in times of need.
+        </p>
+        <ul class="pub-links"></ul>
+      </div>
+
+      <div class="project" data-aos="fade-up" data-aos-delay="100">
+        <h3>MUSE</h3>
+        <p>
+          The Music intervention Using Socially Engaging robotics (MUSE) system
+          seeks to combine the benefits of music intervention with the convience
+          and adaptability of social robotics for persons with dementia (PwD).
+          The social robot, Pepper, guides a group of PwD through a 3-step music
+          intervention session: 1) Keep-with-the-Rythm Game, 2) Sing Along, and
+          3) Dance Along. MUSE was created to both provide these beneficial
+          sessions to PwD, while also alleviating the burden of their
+          caregivers. Studies with PwD and their cargivers show an overall high
+          level of acceptance for both the social robot and the music
+          intervention session, thus showing promise in its potential acceptance
+          should it be deployed in a larger scaled setting.
+        </p>
+        <ul class="pub-links">
+          <li>
+            <a
+              href="https://dl.acm.org/doi/abs/10.1145/3580252.3589428"
+              target="_blank"
+              >POSTER: Design of a Music Intervention System Using Social
+              Robotics for Cognitive Enhancement</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/alz.090814"
+              target="_blank"
+              >User Perceptions of a Robot-based Music Intervention System for
+              Dementia Care</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://ieeexplore.ieee.org/abstract/document/10614422"
+              target="_blank"
+              >Enhancing Dementia Care with Social Robot-Guided Music
+              Interventions</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="project" data-aos="fade-up" data-aos-delay="200">
+        <h3>GRA/REACH</h3>
+        <p>
+          This project is similar to the RISE system, however it is designed to
+          provide supplemental information to persons at risk of cancer. The
+          different versions refer to different conditions and platforms, with
+          GRA (Genetic Risk Assessment) focusing on colorectal cancer and using
+          a social robot, while REACH focuses on pediatric cancer and uses a
+          tablet app. Both systems use a RAG-AI with a large database to
+          generate a 3-step informational session on the given topic: 1) a
+          Presentation, 2) Q&A, and 3) Review. These systems seek to provide
+          supplemental information to patients in a way that alleviates the
+          burden on the already overworked healthcare professionals.
+        </p>
+        <ul class="pub-links">
+          <li>
+            <a
+              href="https://ojs.aaai.org/index.php/AAAI-SS/article/view/31817"
+              target="_blank"
+              >Using Social Robots and AI to Perform Genetic Risk Assessment for
+              Cancer</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Add more projects as needed -->
+    </section>
+
+    <section id="awards">
+      <h2>Achievements & Awards</h2>
+      <div class="award-container">
+        <div class="award-card" data-aos="zoom-in">
+          <h3>Volunteer of Distinction Award</h3>
+          <p>
+            Awarded for academic excellence and research potential in AI and
+            healthcare.
+          </p>
+        </div>
+        <div class="award-card" data-aos="zoom-in" data-aos-delay="100">
+          <h3>NSF Student Travel Award for CHASE 2023 and 2024</h3>
+          <p>
+            Granted for outstanding research and writing of academic literature.
+          </p>
+        </div>
+        <div class="award-card" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Oak Ridge Innovation Institute Graduate Fellowship</h3>
+          <p>
+            Received for research potential and outstanding research design.
+          </p>
+        </div>
+        <div class="award-card" data-aos="zoom-in" data-aos-delay="300">
+          <h3>Dean’s List Award</h3>
+          <p>
+            Awarded for academic excellence during undergradute and graduate
+            studies.
+          </p>
+        </div>
+        <!-- Add more award-card blocks as needed -->
+      </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="socials">
+      <h2>Connect With Me</h2>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/tyler-morris-637a7219b/"
+          target="_blank"
+          data-aos="zoom-in-up"
+          data-aos-delay="0"
+        >
+          <img src="icons/linkedin.svg" alt="LinkedIn" />
+        </a>
+        <a
+          href="https://scholar.google.com/citations?user=8Pikiv4AAAAJ&hl=en"
+          target="_blank"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+        >
+          <img src="icons/scholar.svg" alt="Google Scholar" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        You can reach me at:
+        <a href="mailto:tpmorris13@gmail.com">tpmorris13@gmail.com</a>
+      </p>
+      <!-- You can also add links to your LinkedIn, GitHub, etc. -->
+    </section>
+
+    <!-- Footer at the bottom -->
+    <footer>
+      <p>© 2025 Tyler Morris</p>
+    </footer>
+
+    <script>
+      function animateSkills() {
+        const skills = document.querySelectorAll(".skill-fill");
+        skills.forEach((bar) => {
+          const rect = bar.getBoundingClientRect();
+          const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+          if (isVisible && !bar.classList.contains("animated")) {
+            bar.style.width = bar.getAttribute("data-skill");
+            bar.classList.add("animated");
+          }
+        });
+      }
+
+      window.addEventListener("scroll", animateSkills);
+      window.addEventListener("load", animateSkills);
+    </script>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
